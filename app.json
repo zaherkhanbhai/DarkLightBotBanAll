@@ -1,0 +1,23 @@
+{
+    "name": "DarkLightBanAll",
+    "description": "help you to ban the all memebers from the group",
+    "repository": "",
+    "image": "heroku/python",
+    "env": {
+        "TELEGRAM_TOKEN": {
+        "description": "𝗕𝗼𝘁 𝗧𝗼𝗸𝗲𝗻"
+        },
+        "TELEGRAM_APP_HASH":{
+            "description": "𝗨𝘀𝗲𝗿 𝗔𝗽𝗶 𝗛𝗮𝘀𝗵"
+        },
+        "TELEGRAM_APP_ID":{
+            "description": "𝗨𝘀𝗲𝗿 𝗔𝗽𝗶 𝗜𝗱"
+        }
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "eco"
+            }
+        }
+  }
