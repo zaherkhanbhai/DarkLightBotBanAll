@@ -1,7 +1,7 @@
 {
     "name": "DarkLightBanAll",
     "description": "help you to ban the all memebers from the group",
-    "repository": "",
+    "repository": "https://github.com/RobinMusiczz/DarkLightBanAll",
     "image": "heroku/python",
     "env": {
         "TELEGRAM_TOKEN": {
