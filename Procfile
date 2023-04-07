@@ -1,1 +1,1 @@
-worker: python3 -m groot
+worker: python3 -m main
