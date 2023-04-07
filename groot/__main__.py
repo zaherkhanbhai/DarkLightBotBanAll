@@ -5,7 +5,7 @@
 # Don't Any Value In This Repo If You Edit Your Github Will Get Banned 😌
 
 from pyrogram import idle
-from . import groot
-groot.start()
+from . import bot
+bot.start()
 idle()
-groot.stop()
+bot.stop()
